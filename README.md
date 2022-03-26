@@ -27,7 +27,7 @@ Observe que a estrutura de uma fila é circular e os ponteiros de frente e fundo
 
 # Compilação e Execução
 
-A lista linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+A fila linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     
