@@ -15,12 +15,12 @@ int main()
 	Enfileira(&f, aux);
 	aux.val = 40;
 	Enfileira(&f, aux);
+
 	FImprime(&f);
-	Desenfileira(&f, &aux);
-	Enfileira(&f, aux);
 	
-	//aux.val = 20;
-	//Enfileira(&f, aux);
+	Desenfileira(&f, &aux);
+	aux.val = 40;	
+	Enfileira(&f, aux);
 	
 	FImprime(&f);
 

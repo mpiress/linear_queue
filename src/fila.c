@@ -44,9 +44,15 @@ void FRemove(Fila *f, Item d){
 }
 
 void FImprime(Fila *f){
-	for(int i=f->first-1; i<f->last-1; i++)
-		printf("%d\t", f->vet[i].val);
+	int aux = f->first;
+	
+	while(aux != f->last){
+		printf("%d\t", f->vet[aux-1].val);
+		aux = aux % MAXTAM + 1;
+	}
+
 	printf("\n");
+		
 }
 
 
